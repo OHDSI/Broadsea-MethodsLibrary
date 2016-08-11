@@ -17,10 +17,10 @@ dependencies:
   override:
     - docker pull ohdsi/broadsea-methodslibrary
 
-test:
-  override:
-    - docker run -d -p 8787:8787 -p 6311:6311 -e USER=ohdsi -e PASSWORD=ohdsi ohdsi/basic; sleep 10
-    - curl --retry 10 --retry-delay 5 -v http://localhost:8787
+#test:
+#  override:
+#    - docker run -d -p 8787:8787 -p 6311:6311 -e USER=ohdsi -e PASSWORD=ohdsi ohdsi/basic; sleep 10
+#    - curl --retry 10 --retry-delay 5 -v http://localhost:8787
 
 #deployment:
 #    hub:
