@@ -15,7 +15,7 @@ machine:
 
 dependencies:
   override:
-    - docker pull ohdsi/basic
+    - docker pull ohdsi/broadsea-methodslibrary
 
 test:
   override:
