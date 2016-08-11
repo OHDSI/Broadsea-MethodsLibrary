@@ -21,6 +21,7 @@ RUN installGithub.r \
 	OHDSI/PatientLevelPrediction \
 	OHDSI/CohortMethod \
 	OHDSI/PublicOracle \
+	hadley/xml2 \
 	cloudyr/aws.s3 \
 	OHDSI/OhdsiSharing \
 	OHDSI/StudyProtocols/KeppraAngioedema \
