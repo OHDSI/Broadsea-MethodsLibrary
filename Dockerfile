@@ -7,6 +7,7 @@ RUN install2.r \
 	RSclient \
 	openssl \
 	httr \
+	xml2 \
 && rm -rf /tmp/download_packages/ /tmp/*.rds
 
 ## Install OHDSI R packages
