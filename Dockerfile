@@ -20,6 +20,7 @@ RUN installGithub.r \
 	OHDSI/Cyclops \
 	OHDSI/OhdsiRTools \
 	OHDSI/FeatureExtraction \
+	OHDSI/BigKnn \
 	OHDSI/PatientLevelPrediction \
 	OHDSI/CohortMethod \
 	OHDSI/PublicOracle \
