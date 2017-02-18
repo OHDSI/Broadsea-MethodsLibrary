@@ -1,6 +1,8 @@
 FROM rocker/hadleyverse
 MAINTAINER Marc A. Suchard <msuchard@ucla.edu>
 
+RUN apt-get update && apt-get install -y python-dev
+
 ## Install Rserve
 RUN install2.r \
 	Rserve \
