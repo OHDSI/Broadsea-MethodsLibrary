@@ -10,6 +10,7 @@ RUN install2.r \
 	openssl \
 	httr \
 	xml2 \
+	remotes \
 && rm -rf /tmp/download_packages/ /tmp/*.rds
 
 ## Install OHDSI R packages
