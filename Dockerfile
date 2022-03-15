@@ -24,9 +24,9 @@ RUN installGithub.r \
 	OHDSI/FeatureExtraction \
 	OHDSI/BigKnn \
 	OHDSI/PatientLevelPrediction \
-	OHDSI/CohortMethod \
+	OHDSI/CohortMethod 
 	OHDSI/PublicOracle \
-	hadley/xml2 \
+	r-lib/xml2 \
 	cloudyr/aws.s3 \
 	OHDSI/OhdsiSharing \
 && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
